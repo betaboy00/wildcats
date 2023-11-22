@@ -11,9 +11,11 @@
 .containerhockey .boxhometeam {
   background:url(https://rawcdn.githack.com/betaboy00/wildcats/fa77dcce53f995d5465d19a0670bc3a692e26dca/img/WildCatsResize.png) no-repeat right; 
   background-size:8vw
+  padding-right: 200px
 }
 
 .containerhockey .boxawayteam {
   background:url(https://rawcdn.githack.com/betaboy00/wildcats/fa77dcce53f995d5465d19a0670bc3a692e26dca/img/spsFuzion_logo-resize.png) no-repeat right; 
   background-size:8vw
+  padding-right: 200px
 }
