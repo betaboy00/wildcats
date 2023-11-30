@@ -33,7 +33,7 @@ On the left you can read every single element with his class */
 }
 .boxhometeam:before {
   right:1vw;
-  background: url(https://rawcdn.githack.com/betaboy00/wildcats/fa77dcce53f995d5465d19a0670bc3a692e26dca/img/WildCatsResize.png) no-repeat center; 
+  background: url(https://rawcdn.githack.com/betaboy00/wildcats/e6b46ffe3c3cae44a9b7095a49394ddf706f3296/img/wildcats_logo.png) no-repeat center; 
   background-size:8vw;
 }
 
@@ -42,7 +42,7 @@ On the left you can read every single element with his class */
 }
 .boxawayteam:before {
   left:1vw;
-  background: url(https://rawcdn.githack.com/betaboy00/wildcats/338dd65b4fd581ea9e2bcc5c2d3f36a45be617b5/img/ravens_logo_medium-transparent.png) no-repeat center; 
+  background: url(https://rawcdn.githack.com/betaboy00/wildcats/e6b46ffe3c3cae44a9b7095a49394ddf706f3296/img/RichmondRavens.jpg) no-repeat center; 
   background-size:6vw;
 }
 
