@@ -1,0 +1,21 @@
+.boxovertimeoff #overtime {
+  display: none;
+}
+
+.boxovertimeoff #moment:before {
+  content: "Period";
+  margin-right: 0.2em;
+  visibility: visible;
+}
+
+.containerhockey .boxhometeam {
+  background:url(https://rawcdn.githack.com/betaboy00/wildcats/2e429c09cd7a52aa39e120a76f508a56b4f00b13/img/MR-Barracuda.png) no-repeat right; 
+  background-size:8vw;
+  padding-right: 100px
+}
+
+.containerhockey .boxawayteam {
+  background:url(https://rawcdn.githack.com/betaboy00/wildcats/2e429c09cd7a52aa39e120a76f508a56b4f00b13/img/WildCatsResize.png) no-repeat right; 
+  background-size:8vw;
+  padding-right: 100px
+}
