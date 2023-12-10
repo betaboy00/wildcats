@@ -1,0 +1,69 @@
+/* INSTRUCTION and example for customize SOCCER HOCKEY or RUGBY scoreboard:
+Each element has one or more classes, so you can control one or more elements at the same time.
+On the left you can read every single element with his class */
+
+/*--- First step - FONTS: CSS involves embedding fonts at the beginning of the document. You can import and use webfont, for example here we imported a Google font (https://fonts.google.com/) ---*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Every scoreboard has a unique container (SOCCER = containersoccer / BASKETBALL = containerbasket etc.. read them with your browser inspector). You can use them for override styles */
+
+/*this change font and background color of logo and result */
+.boxhomepoints, .space, .boxawaypoints, .sgrlogo:before {
+  background:#555;
+  color:#fff;
+}
+
+/*this change font of Team names */
+.boxhometeam, .boxawayteam, .boxhomepoints, .space, .boxawaypoints {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.4em;
+  font-weight: bold;
+  position:relative;
+}
+
+/*this insert team badges */
+.boxhometeam:before, .boxawayteam:before {
+  content:"";
+  position:absolute;
+  width: 10vw;
+  height: 9vw;
+}
+.boxhometeam {
+  justify-content: flex-end; padding-right:9vw;
+}
+.boxhometeam:before {
+  right:1vw;
+  background: url(https://rawcdn.githack.com/betaboy00/wildcats/2e429c09cd7a52aa39e120a76f508a56b4f00b13/img/MR-Barracuda.png) no-repeat center; 
+  background-size:5vw;
+}
+
+.boxawayteam {
+  justify-content: flex-start; padding-left:9vw;
+}
+.boxawayteam:before {
+  left:1vw;
+  background: url(https://rawcdn.githack.com/betaboy00/wildcats/2e429c09cd7a52aa39e120a76f508a56b4f00b13/img/WildCatsResize.png) no-repeat center; 
+  background-size:5vw;
+}
+
+.boxhomepoints, .boxhometeam {
+  border-left: solid 1vw #999;
+}
+.boxawaypoints, .boxawayteam {
+  border-right: solid 1vw #999;
+}
+
+.boxovertimeoff #overtime {
+  display: none;
+}
+
+.boxovertimeoff #moment:before {
+  content: "Period";
+  margin-right: 0.2em;
+  visibility: visible;
+}
+
+/*-------------------------------------------------------------------
+---- UNDER: background color and a little spase from margins. PLEASE DO NOT CONSIDER THIS-*/
+body {background:#666;background-color: transparent}
+.containersoccer {margin: 30px 0;}
