@@ -1,8 +1,8 @@
-.boxovertimeon #overtime {
+.boxovertimeoff #overtime {
   display: none;
 }
 
-.boxovertimeon #moment:before {
+.boxovertimeoff #moment:before {
   content: "Period";
   margin-right: 0.2em;
   visibility: visible;
