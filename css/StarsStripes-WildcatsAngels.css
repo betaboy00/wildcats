@@ -1,0 +1,21 @@
+.boxovertimeon #overtime {
+  display: none;
+}
+
+.boxovertimeon #moment:before {
+  content: "Period";
+  margin-right: 0.2em;
+  visibility: visible;
+}
+
+.containerhockey .boxhometeam {
+  background:url(https://rawcdn.githack.com/betaboy00/wildcats/7264ecd61896864676ff4ad41288052908a23684/img/VancouverAngels.png) no-repeat right; 
+  background-size:8vw;
+  padding-right: 200px
+}
+
+.containerhockey .boxawayteam {
+  background:url(https://rawcdn.githack.com/betaboy00/wildcats/7264ecd61896864676ff4ad41288052908a23684/img/wildcats_logo.png) no-repeat left; 
+  background-size:10vw;
+  padding-left: 200px
+}
