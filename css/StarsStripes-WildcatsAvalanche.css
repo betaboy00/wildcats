@@ -1,0 +1,25 @@
+.boxovertimeoff #overtime {
+  display: none;
+}
+
+.boxovertimeoff #moment:before {
+  content: "Period";
+  margin-right: 0.2em;
+  visibility: visible;
+}
+
+.containerhockey .boxhometeam {
+  font-weight: bold;
+  background:url(https://rawcdn.githack.com/betaboy00/wildcats/7264ecd61896864676ff4ad41288052908a23684/img/wildcats_logo.png) no-repeat right; 
+  background-size:10vw;
+  padding-right: 75px
+}
+
+.containerhockey .boxawayteam {
+  font-weight: bold;
+  background:url(https://rawcdn.githack.com/betaboy00/wildcats/c3334c40bbfdcbf2b1cef83b3d47bd8de38a3f18/img/NorthShoreAvalanche.png) no-repeat left; 
+  background-size:8vw;
+  padding-left: 75px
+}
+
+.space, .boxballsstrikesseparator {background:  url(https://rawcdn.githack.com/betaboy00/wildcats/0a51744f4143d7e5a076dbc20782a40d15e5e93e/img/CanadaMapleLeaf.png) no-repeat center center; background-size: contain; color:transparent;}
