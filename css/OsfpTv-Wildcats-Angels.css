@@ -14,7 +14,7 @@
 }
 
 .containerhockey {
-  https://img.freepik.com/premium-vector/abstract-background-made-curved-lines-dark-red-colors_444390-5772.jpg);
+  background:url(https://img.freepik.com/premium-vector/abstract-background-made-curved-lines-dark-red-colors_444390-5772.jpg);
   background-color: rgba(128,0,0,0.5);
   background-blend-mode: multiply;
 }
